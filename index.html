@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Focus Timer By Yahyald</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stars"></div>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+<div class="green-boxes"></div>
+<div id="main-timer" class="timer">00:00:00</div>
+<div id="bottom-timer" class="timer">00:00:00</div>
+<div id="control-box" class="control-box">
+  <img id="reset-button" src="reset.png" alt="Reset" class="control-icon" onclick="resetTimer()" disabled>
+  <img id="start-button" src="start.png" alt="Start" class="control-icon" onclick="startTimer()">
+  <img id="stop-button" src="stop.png" alt="Stop" class="control-icon" onclick="stopTimer()">
+</div>
+<div id="current-time" class="current-time">00:00:00</div>
+<script src="script.js"></script>
+</body>
+</html>
